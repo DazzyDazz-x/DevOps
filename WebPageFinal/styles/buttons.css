@@ -1,0 +1,90 @@
+.btn {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: right;
+    font-weight: bold;
+
+
+
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0 , 0, 0.4);
+}
+.buttons {
+    display: flex;
+}
+.buttons2 {
+    display: flex;
+}
+
+
+.btn2 {
+    background-color: rgb(75, 237, 145);
+    color: rgb(16, 15, 15);
+    font-size: 2em;
+    padding: 20px 60px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-left: 90px;
+    margin-right: 10px;
+    align-items: center;
+}
+.btn3 {
+    background-color: rgb(29, 22, 22);
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 20px 60px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.buttons3 {
+    display: flex;
+}
+
+.btn4 {
+    background-color: rgb(64, 63, 63);
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding: 10px 107px;
+    border: 1px solid rgb(161, 160, 160);
+    transition: 0.3s;
+    font-family: "Ubuntu Condensed", sans-serif;
+    align-items: center;
+    font-weight: bold;
+    
+    
+}
+.footer > .buttons3 > .first-btn-wrapper > .btn4 > .negrita {
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+.footer > .buttons3 > .second-btn-wrapper > .btn4 > .negrita {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.footer > .buttons3 > .third-btn-wrapper > .btn4 > .negrita {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.footer > .buttons3 > .fourth-btn-wrapper > .btn4 > .negrita {
+    font-weight: bold;
+    font-size: 1.3rem;
+}

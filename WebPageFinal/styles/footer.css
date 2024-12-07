@@ -1,0 +1,10 @@
+/**** FOOTER STYLES ****/
+.footer {
+    display: flex;
+    height: -20px;
+    background-color: #16161b; /*color de fondo*/
+    color: #cbcbcb; /*color de la letra*/
+    padding: 0px 0px 140px 0px;
+    width: 100%;
+
+}

@@ -1,0 +1,106 @@
+/**** NAV STYLES ****/
+.navigation-wrapper {
+    height: 1px;
+    background-color: #16161b; /*color de fondo*/
+    color: #cbcbcb; /*color de la letra*/
+
+
+/* FLEXBOX CONTAINER */
+    display: flex; /*espacio de trabajo donde estaran tus elementos, es decir el fondo de tu pagina o de lo que estas editando*/
+    justify-content: space-between; /*espacios horizontales entre los elementos con center: los tendrias todos pegados al centro, flex-end ala derecha, flex-start: ala izquierda y space around:te deja espacio en las orillas izq y der */
+    align-items: center; /*alineacion de forma vertical con center: al centro, con flex-start: arriba y con flex-end: abajo*/
+    padding: 75px 1px 75px 100px;
+}
+
+
+/*LEFT COLUMN STYLES*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .left-column > .banner-image {
+    margin-right: 50px;
+    margin-left: -70px;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 216px; 
+    height:100%;
+}
+
+.navigation-wrapper > .left-column > .menu {
+    display: grid;
+    grid-template-columns: 1fr; /* Es la medida de espacio en horizontal que ocupa lo que pones, por ejemplo si pones "1fr 2fr;", las los frases o cosas que pusiste se pondran en horizontal, pero la segunda tendra el doble de espacio que la primera, o si pones  "2fr 1fr;", la primera tendra el doble de espacio que la segunda.*/
+    grid-gap: 0px;
+}    
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.links-wrapper > .nav-link  {
+    width: 100px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color:whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link2  {
+    width: 100px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.links-wrapper > .nav-link2 a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .icon5 {
+    align-items: center;
+}
+
+.links-wrapper > .icon5 i {
+    line-height: 2;
+    margin-left: -30px;
+}
+ .left-btn-wrapper > .icon6 {
+    align-items: center;
+    color: green;
+ }
+
+ .left-btn-wrapper > .icon6 i {
+    line-height: 1;
+    margin-left: 5px;
+ }
+
+
+
+/*RIGHT COLUMN STYLES*/
+
+.right-column > .buttons {
+    justify-content: flex-end; /*espacios horizontales entre los elementos con center: los tendrias todos pegados al centro, flex-end ala derecha, flex-start: ala izquierda y space around:te deja espacio en las orillas izq y der */
+
+}
+
+.navigation-wrapper > .right-column > .buttons > .icon {
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .buttons > .icon i {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 15px;
+}

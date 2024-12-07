@@ -1,0 +1,28 @@
+/* Helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+
+.spacer15 {
+    width: 70px;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus { /*que no este subrayado el link*/
+    outline: none;
+}
+
+.anchor-link h1::after { /*para meter el icono de link que tiene despues del texto en el titulo, en este caso el link, pero cualquier contenido antes con un before o despues como en este caso con el after, lo puedes hacer*/
+   font-family: "Font Awesome 6 Free";
+   content: " \f0c1";
+   font-weight: 900; /*esto, asi como la font family es algo que tiene establecido ya el font awesome para sus caracteristicas*/
+}
